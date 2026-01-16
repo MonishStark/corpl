@@ -81,4 +81,6 @@ across all configured devices.
 
 ---
 
-No local setup required for this
+## 6. Local Execution
+
+Local setup is not required as this suite is designed to run in a CI/CD environment (GitHub Actions).
