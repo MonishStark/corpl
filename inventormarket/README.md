@@ -81,4 +81,18 @@ across all configured devices.
 
 ---
 
-No local setup required for this
+## 6. Local Execution (for Development)
+
+While this suite is primarily designed for CI/CD, you can run tests locally for development and debugging.
+
+### Prerequisites
+
+- **Node.js** (v14 or higher)
+- **NPM**
+
+### Installation
+
+```bash
+npm install
+npx playwright install
+```
