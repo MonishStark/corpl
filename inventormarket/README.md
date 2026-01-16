@@ -80,3 +80,5 @@ across all configured devices.
 4. Download the **`inventor-market-report`** artifact from the run.
 
 ---
+
+No local setup required for this
