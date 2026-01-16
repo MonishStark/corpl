@@ -36,7 +36,7 @@ maintainability and deterministic visual testing.
 - **Base URL:** `https://www.inventor.market`
 - **Execution Mode:** Sequential
 - **Visual Tolerance:** `maxDiffPixelRatio: 0.02`
-- **Stabilization:** Animations, lazy-load triggers, and parallax effects are stabilized before capture
+- **Stabilization:** Animations, lazy-load triggers, and parallax effects are stabilized before capture.
 
 ---
 
@@ -80,17 +80,3 @@ across all configured devices.
 4. Download the **`inventor-market-report`** artifact from the run.
 
 ---
-
-## 6. Execution Option B: Local Setup (Developer Mode)
-
-### Prerequisites
-
-- **Node.js** (v14 or higher)
-- **NPM**
-
-### Step 1: Install
-
-```bash
-npm install
-npx playwright install
-```
