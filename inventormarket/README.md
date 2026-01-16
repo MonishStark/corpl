@@ -36,7 +36,7 @@ maintainability and deterministic visual testing.
 - **Base URL:** `https://www.inventor.market`
 - **Execution Mode:** Sequential
 - **Visual Tolerance:** `maxDiffPixelRatio: 0.02`
-- **Stabilization:** Animations, lazy-load triggers, and parallax effects are stabilized before capture
+- **Stabilization:** Animations, lazy-load triggers, and parallax effects are stabilized before capture.
 
 ---
 
@@ -81,14 +81,16 @@ across all configured devices.
 
 ---
 
-## 6. Execution Option B: Local Setup (Developer Mode)
+## 6. Local Execution (for Development)
+
+While this suite is primarily designed for CI/CD, you can run tests locally for development and debugging.
 
 ### Prerequisites
 
 - **Node.js** (v14 or higher)
 - **NPM**
 
-### Step 1: Install
+### Installation
 
 ```bash
 npm install
